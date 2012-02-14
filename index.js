@@ -16,7 +16,7 @@ var p = [
 
 module.exports = function gamma (z) {
     if (z < 0.5) {
-        return Math.PI / Math.sin(Math.PI * z) * gamma(1 - z);
+        return Math.PI / (Math.sin(Math.PI * z) * gamma(1 - z));
     }
     else {
         z -= 1;
