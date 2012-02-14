@@ -5,6 +5,9 @@ The [gamma function](http://en.wikipedia.org/wiki/Gamma_function)
 (Γ) in javascript using the
 [lanczos approximation](http://en.wikipedia.org/wiki/Lanczos_approximation).
 
+[![build status](https://secure.travis-ci.org/substack/gamma.js.png)](http://travis-ci.org/substack/gamma.js)
+
+
 example
 =======
 
