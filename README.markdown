@@ -51,4 +51,5 @@ credit
 ======
 
 Implementation transliterated from the python script on the wikipedia entry for
-[lanczos approximation](http://en.wikipedia.org/wiki/Lanczos_approximation].
+the
+[lanczos approximation](http://en.wikipedia.org/wiki/Lanczos_approximation).
