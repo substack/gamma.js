@@ -1,18 +1,13 @@
 {
     "name" : "gamma",
-    "version" : "0.0.0",
+    "version" : "0.0.1",
     "description" : "the gamma function (Γ)",
     "main" : "index.js",
-    "directories" : {
-        "lib" : ".",
-        "example" : "example",
-        "test" : "test"
-    },
     "devDependencies" : {
-        "tap" : "0.1.x"
+        "tap" : "~0.3.0"
     },
     "scripts" : {
-        "test" : "tap test"
+        "test" : "tap test/*.js"
     },
     "repository" : {
         "type" : "git",
@@ -31,6 +26,5 @@
         "email" : "mail@substack.net",
         "url" : "http://substack.net"
     },
-    "license" : "MIT/X11",
-    "engine" : { "node" : ">=0.4" }
+    "license" : "MIT"
 }
