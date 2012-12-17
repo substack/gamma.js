@@ -1,15 +1,15 @@
-gamma
-=====
+# gamma
 
-The [gamma function](http://en.wikipedia.org/wiki/Gamma_function)
-(Γ) in javascript using the
-[lanczos approximation](http://en.wikipedia.org/wiki/Lanczos_approximation).
+[gamma function](http://en.wikipedia.org/wiki/Gamma_function)
+in javascript using the
+[lanczos approximation](http://en.wikipedia.org/wiki/Lanczos_approximation)
+for small values and the 
+[spouge approximation](https://en.wikipedia.org/wiki/Spouge's_approximation) for
+larger values
 
 [![build status](https://secure.travis-ci.org/substack/gamma.js.png)](http://travis-ci.org/substack/gamma.js)
 
-
-example
-=======
+# example
 
 ```
 > var gamma = require('gamma')
@@ -19,18 +19,15 @@ example
 0.8935153492876909
 ```
 
-methods
-=======
+# methods
 
 var gamma = require('gamma')
 
-gamma(z)
---------
+## gamma(z)
 
 Return the gamma function over `z`. Complex numbers aren't supported, only reals.
 
-install
-=======
+# install
 
 With [npm](http://npmjs.org) do:
 
@@ -38,18 +35,14 @@ With [npm](http://npmjs.org) do:
 npm install gamma
 ```
 
-test
-====
-
-With [npm](http://npmjs.org) do:
-
-```
-npm test
-```
-
-credit
-======
+# kudos
 
 Implementation transliterated from the python script on the wikipedia entry for
 the
 [lanczos approximation](http://en.wikipedia.org/wiki/Lanczos_approximation).
+
+Spouge approximation from [Niggler](https://github.com/Niggler).
+
+# license
+
+MIT
