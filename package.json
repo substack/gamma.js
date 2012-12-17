@@ -4,7 +4,8 @@
     "description" : "the gamma function (Γ)",
     "main" : "index.js",
     "devDependencies" : {
-        "tap" : "~0.3.0"
+        "tap" : "~0.3.0",
+        "tape" : "~0.1.1"
     },
     "scripts" : {
         "test" : "tap test/*.js"
