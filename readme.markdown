@@ -7,6 +7,8 @@ for small values and the
 [spouge approximation](https://en.wikipedia.org/wiki/Spouge's_approximation) for
 larger values
 
+[![browser support](http://ci.testling.com/substack/gamma.js.png)](http://ci.testling.com/substack/gamma.js)
+
 [![build status](https://secure.travis-ci.org/substack/gamma.js.png)](http://travis-ci.org/substack/gamma.js)
 
 # example
