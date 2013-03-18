@@ -63,3 +63,5 @@ module.exports = function gamma (z) {
         ;
     }
 };
+
+module.exports.log = lngamma;
