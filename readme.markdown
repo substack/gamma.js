@@ -29,6 +29,13 @@ var gamma = require('gamma')
 
 Return the gamma function over `z`. Complex numbers aren't supported, only reals.
 
+## gamma.log(z)
+
+Return the natural log of the gamma function for `z`.
+
+This function is used internally by the spouge approximation to compute large
+values.
+
 # install
 
 With [npm](http://npmjs.org) do:

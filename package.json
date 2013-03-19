@@ -1,6 +1,6 @@
 {
     "name" : "gamma",
-    "version" : "0.0.1",
+    "version" : "0.1.0",
     "description" : "the gamma function (Γ)",
     "main" : "index.js",
     "devDependencies" : {
