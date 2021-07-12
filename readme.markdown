@@ -14,7 +14,7 @@ larger values
 # example
 
 ```
-> var gamma = require('gamma')
+> import gamma from 'gamma'
 > gamma(5)
 23.999999999999996
 > gamma(1.6)
@@ -23,13 +23,17 @@ larger values
 
 # methods
 
-var gamma = require('gamma')
+import gamma from 'gamma'
 
 ## gamma(z)
 
 Return the gamma function over `z`. Complex numbers aren't supported, only reals.
 
-## gamma.log(z)
+## log(z)
+
+```
+import { log } from 'gamma'
+```
 
 Return the natural log of the gamma function for `z`.
 

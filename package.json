@@ -3,6 +3,7 @@
   "version" : "1.0.0",
   "description" : "the gamma function (Γ)",
   "main" : "index.js",
+  "type" : "module",
   "devDependencies" : {
     "tap" : "~0.3.0",
     "tape" : "~0.1.1"
