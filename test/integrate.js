@@ -1,5 +1,5 @@
-var test = require('tape');
-var gamma = require('../');
+import test from 'tape';
+import gamma from '../index.js';
 
 test('integrate', function (t) {
     // gamma(z) = integral(0, inf, e^(-t)*t^(z - 1))

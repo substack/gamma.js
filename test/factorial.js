@@ -1,5 +1,5 @@
-var test = require('tape');
-var gamma = require('../');
+import test from 'tape';
+import gamma from '../index.js';
 
 test('factorials', function (t) {
     // gamma(n) = (n - 1)!
